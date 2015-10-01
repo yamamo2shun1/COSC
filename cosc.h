@@ -14,7 +14,7 @@
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with PICrouter. if not, see <http:/www.gnu.org/licenses/>.
+ * along with COSC. if not, see <http:/www.gnu.org/licenses/>.
  *
  * cosc.h,v.0.1.0 2015/10/01
  */
