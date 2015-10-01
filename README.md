@@ -15,3 +15,6 @@ Windows, Mac OS X, Linux
 3rd arg. = osc address(necessary)  
 4th arg. = osc typetag(necessary. supported i, f and s)  
 5th and more args. = osc arguments
+
+## License
+GPL v3
