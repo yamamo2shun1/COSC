@@ -14,7 +14,7 @@
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with PICrouter. if not, see <http:/www.gnu.org/licenses/>.
+ * along with COSC. if not, see <http:/www.gnu.org/licenses/>.
  *
  * cosc.c,v.0.1.0 2015/10/01
  */
@@ -26,7 +26,6 @@ static struct sockaddr_in addr;
 static int oscTotalSize;
 static char sndOSCData[MAX_MESSAGE_LEN];
 
-void sendOSCMessage(const char* prefix, const char* command, const char* type, ...);
 void setOSCAddress(const char* prefix, const char* command);
 void setOSCTypeTag(const char* type);
 void addOSCIntArgument(int value);
