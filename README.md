@@ -1,6 +1,9 @@
 # COSC
 Console command for Open Sound Control
 
+## Supported Platform
+Windows, Mac OS X, Linux
+
 ## How to Compile
 `gcc -o cosc cosc.c`
 
