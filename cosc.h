@@ -24,5 +24,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <netinet/in.h>
+#include <arpa/inet.h>
+#include <unistd.h>
 
 #define MAX_MESSAGE_LEN 256// 160

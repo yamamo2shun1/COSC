@@ -58,7 +58,7 @@ int main(int argc, char *args[])
         switch(i)
         {
         case 1:
-            addr.sin_addr.s_addr = inet_addr(args[i]);
+            inet_pton(AF_INET, args[i], &addr.sin_addr.s_addr);
             break;
         case 2:
             addr.sin_port = htons(atoi(args[i]));
